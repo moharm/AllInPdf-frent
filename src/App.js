@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Components/Header";
 import Login from "./Components/Login";
 import Acceuil from "./Components/Acceuil";
+import Drop from "./Components/Drop";
 import './App.css';
 
 
@@ -14,6 +15,9 @@ function App() {
                         <Switch>
                             <Route exact path="/Acceuil">
                                 <Acceuil/>
+                            </Route>
+                            <Route path="/Drop">
+                                <Drop/>
                             </Route>
                             <Route path="/Login">
                                 <Login/>

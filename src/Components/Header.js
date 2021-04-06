@@ -13,6 +13,7 @@ export default function Header() {
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link ><Link to="/Acceuil">Acceuil</Link></Nav.Link>
+                <Nav.Link ><Link to="/Drop">Drop</Link></Nav.Link>
             </Nav>
             <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
