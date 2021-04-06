@@ -11,18 +11,12 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:v0.2" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52767d6-a3e4-4e87-96a5-419cc0244f0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Drop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Drop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-    </list>
+    <list default="true" id="d52767d6-a3e4-4e87-96a5-419cc0244f0b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v0.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,12 +48,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="v0.2" />
-                    <option name="lastUsedInstant" value="1616257495" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1617714661" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1616257489" />
+                    <option name="branchName" value="v0.2" />
+                    <option name="lastUsedInstant" value="1616257495" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="v0.1" />
@@ -142,6 +136,7 @@
       <workItem from="1614537293998" duration="129000" />
       <workItem from="1614537452180" duration="2840000" />
       <workItem from="1616255915152" duration="2811000" />
+      <workItem from="1617714598704" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1616257561747</created>
@@ -157,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616257575918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new :sparkles:">
+      <created>1617714657092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617714657092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +176,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="v0.2" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -189,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add new :sparkles:" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new :sparkles:" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="305" key="#ESLint" timestamp="1612732845671">
@@ -276,6 +279,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614537423210" />
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1617714631129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1617714631129" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1610639379608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
