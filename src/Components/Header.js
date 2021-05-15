@@ -19,7 +19,7 @@ export default function Header() {
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                 <Button variant="outline-info">Search</Button>
             </Form>
-            <Nav.Link ><Link to="/Login">Login</Link></Nav.Link>
+            <a href="http://localhost:8080/restricted">Login</a>
         </Navbar>
     );
 }
