@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Home.css";
 
-class Home extends Component {
-  renderCircles() {
+export default function Home() {
+  function renderCircles() {
     return (
       <div className="container">
         <div className="graf-bg-container">
@@ -26,9 +26,9 @@ class Home extends Component {
     );
   }
 
-  render() {
-    return <div className="home-container">{this.renderCircles()}</div>;
-  }
+    return (
+        <div className="home-container">{renderCircles()}</div>
+    )
+
 }
 
-export default Home;
