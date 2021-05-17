@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Route, Switch } from "react-router-dom";
 import Acceuil from "../Components/main/main";
-import Drop from "../Components/Drop/Drop";
+import Drop from "../Components/drop/Drop";
 import AppHeader from "../Common/AppHeader";
 import Home from "../Components/home/Home";
 import Login from "../Components/user/Login";

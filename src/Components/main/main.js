@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Alert from "react-bootstrap/Alert";
 import Button from "react-bootstrap/Button";
-import Drop from '../Drop/Drop'
+import Drop from '../drop/Drop'
 import "./main.css";
 
 
