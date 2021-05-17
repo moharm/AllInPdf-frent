@@ -35,6 +35,30 @@ export function upload(name, size, file) {
    })
 }
 
+export function Init(){
+
+    return axios({
+        method : 'get',
+        url : '/init',
+        headers: {
+            "Authorization": "Bearer " + localStorage.getItem(ACCESS_TOKEN)
+        },
+        withCredentials:true,
+    
+    } ).then((responce)=>{
+        console.log(responce)
+        return {
+            isErreur : false,
+            message : responce.data,
+        }
+    }).catch(erreur => {
+
+        console.error(erreur.message)
+        return {isErreur : true,
+            message : erreur.message}
+    })
+}
+
 export function Delete(code){
 
     return axios({

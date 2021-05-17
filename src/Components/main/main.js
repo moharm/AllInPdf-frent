@@ -52,6 +52,18 @@ export default function Acceuil() {
             setFiles([])
         }
     }
+    async function initFiles(){
+        let result = await ManagFile.Init()
+        if( result.isErreur ){
+            setErreur(result.message)
+
+        }else{
+            setFiles([])
+        }
+    }
+    useEffect(() => {
+     initFiles()
+    }, [])
 
 
     return (
