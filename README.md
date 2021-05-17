@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+#AllInPdf-Frent side
+web app based on ReactJs, that helps you to convert all types of images and pdf files to one pdf file.
+
+using :
+
+- react-bootstrap for design
+- react-dropzone fro drag and drop input
+- react-router
+- axios for APIs
+- react-pdf for PDF preview
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
