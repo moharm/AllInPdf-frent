@@ -8,19 +8,15 @@ export default function AppHeader(props) {
         <div className="container">
           <div className="app-branding">
             <Link to="/" className="app-title">
-              React Login
-            </Link>
-          </div>
-          <div className="app-branding">
-            <Link to="/Acceuil" className="app-title">
               Acceuil
             </Link>
           </div>
           <div className="app-branding">
-            <Link to="/Drop" className="app-title">
-              Drop
+            <Link to="/Acceuil" className="app-title">
+              AllInPdf
             </Link>
           </div>
+
           
           <div className="app-options">
             <nav className="app-nav">
