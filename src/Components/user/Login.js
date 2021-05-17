@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import "./Login.css";
 import { GOOGLE_AUTH_URL } from "../../Constants";
 import { Redirect } from "react-router-dom";
-import googleLogo from "../../img/google-logo.png";
+import googleLogo from "../../assets/google-logo.png";
 import Alert from "react-s-alert";
 
 function Login(props)  {
