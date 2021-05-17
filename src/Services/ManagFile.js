@@ -1,4 +1,5 @@
 import axios from '../Config/axios'
+import {  ACCESS_TOKEN } from "../Constants";
 
 export function upload(name, size, file) {
 
@@ -9,9 +10,10 @@ export function upload(name, size, file) {
         method : 'post',
         url : '/upload',
         headers: {
-            "Content-Type": "multipart/form-data"
+            "Content-Type": "multipart/form-data",
+            "Authorization": "Bearer " + localStorage.getItem(ACCESS_TOKEN)
         },
-        withCredentials : true,
+        //withCredentials : true,
         data : formData
     }).then((responce)=>{
         console.log(responce)
@@ -33,12 +35,39 @@ export function upload(name, size, file) {
    })
 }
 
+export function Init(){
+
+    return axios({
+        method : 'get',
+        url : '/init',
+        headers: {
+            "Authorization": "Bearer " + localStorage.getItem(ACCESS_TOKEN)
+        },
+        withCredentials:true,
+    
+    } ).then((responce)=>{
+        console.log(responce)
+        return {
+            isErreur : false,
+            message : responce.data,
+        }
+    }).catch(erreur => {
+
+        console.error(erreur.message)
+        return {isErreur : true,
+            message : erreur.message}
+    })
+}
+
 export function Delete(code){
 
     return axios({
         method : 'delete',
         url : '/',
-        withCredentials : true,
+        headers: {
+            "Authorization": "Bearer " + localStorage.getItem(ACCESS_TOKEN)
+        },
+        withCredentials:true,
         data : {
             code : code
         }
@@ -61,8 +90,11 @@ export function generatePDF(){
         method : 'get',
         url : '/concat',
         responseType: 'blob',
-        withCredentials : true,
-    } ).then((responce)=>{
+        headers: {
+            "Authorization": "Bearer " + localStorage.getItem(ACCESS_TOKEN)
+        },    
+    }
+         ).then((responce)=>{
         console.log(responce)
         downloadPDF(responce.data)
         return {
