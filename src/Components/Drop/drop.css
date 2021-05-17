@@ -1,0 +1,50 @@
+
+
+.thumbsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px
+}
+
+.thumb{
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 100px;
+    height: 100px;
+    padding: 4;
+    box-sizing: border-box
+}
+.thumbInner{
+    display: flex;
+    min-width: 0px;
+    overflow: hidden
+}
+
+.img{
+    display: block;
+    width: auto;
+    height: 100%
+}
+
+.react-pdf__Page__canvas{
+    height: 150px !important;
+    width: 90px !important ;
+}
+
+.deleteBtn{
+    position: relative;
+    top: -6px;
+    height: 24px;
+    left: 82px;
+    color: white !important;
+    z-index: 1000;
+    background-size: 15px;
+    background-position: center center;
+    background-image: url('/src/assets/delete-button.png') ;
+    background-repeat: no-repeat;
+
+}
